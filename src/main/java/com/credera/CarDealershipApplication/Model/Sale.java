@@ -3,6 +3,7 @@ package com.credera.CarDealershipApplication.Model;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 
@@ -33,7 +34,8 @@ public class Sale {
     private int sellPrice;
 
     @Column(name = "sell_date")
-    private java.time.LocalDate sellDate;
+    @Temporal(TemporalType.DATE)
+    private java.util.Date sellDate;
 
     public Sale(ReceiverSale receiverSale, Employee employee, Customer customer, Car car) {
         sellPrice = receiverSale.getSellPrice();

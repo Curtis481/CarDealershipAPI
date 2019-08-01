@@ -8,7 +8,7 @@ public class ResponseSale {
     private int id;
     private ResponseCar car;
     private int sellPrice;
-    private java.time.LocalDate sellDate;
+    private java.util.Date sellDate;
 
     public ResponseSale(Sale sale, ResponseCar car) {
         id = sale.getId();

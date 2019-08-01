@@ -9,5 +9,5 @@ public class ReceiverSale {
     private int employee_id;
     private int customer_id;
     private int sellPrice;
-    private java.time.LocalDate sellDate;
+    private java.util.Date sellDate;
 }
