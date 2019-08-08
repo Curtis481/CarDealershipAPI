@@ -47,21 +47,21 @@ CREATE TABLE Cars (
 );
 
 
-insert into Cars (id, color, make, model, year, price) values (1, 'White', 'Nissan', 'Altima', 2005, 5000);
-insert into Cars (id, color, make, model, year, price) values (2, 'Red', 'Nissan', 'Maxima', 2019, 45000);
-insert into Cars (id, color, make, model, year, price) values (3, 'Grey', 'Honda', 'Pilot', 2002, 2500);
-insert into Cars (id, color, make, model, year, price) values (4, 'Teal', 'Kia', 'Rio', 2003, 3200);
+insert into Cars (id, color, make, model, year, price) values (1, 'White', 'Nissan', 'Altima', 2010, 5000);
+insert into Cars (id, color, make, model, year, price) values (2, 'Red', 'Nissan', 'Maxima', 2016, 45000);
+insert into Cars (id, color, make, model, year, price) values (3, 'Grey', 'Honda', 'Pilot', 2012, 2500);
+insert into Cars (id, color, make, model, year, price) values (4, 'Teal', 'Kia', 'Rio', 2013, 3200);
 insert into Cars (id, color, make, model, year, price) values (5, 'Red', 'Dodge', 'Journey', 2015, 18000);
 insert into Cars (id, color, make, model, year, price) values (6, 'Grey', 'BMW', 'Z4', 2010, 29000);
-insert into Cars (id, color, make, model, year, price) values (7, 'Black', 'Acura', 'MDX', 2004, 4150);
+insert into Cars (id, color, make, model, year, price) values (7, 'Black', 'Acura', 'MDX', 2016, 4150);
 insert into Cars (id, color, make, model, year, price) values (8, 'Blue', 'Cadillac', 'ATS', 2013, 1900);
 insert into Cars (id, color, make, model, year, price) values (9, 'Pink', 'Tesla', 'Model 3', 2017, 35000);
 insert into Cars (id, color, make, model, year, price) values (10, 'White', 'Fiat', '500', 2014, 1200);
-insert into Cars (id, color, make, model, year, price) values (11, 'Orange', 'Mitsubishi', 'Galant', 2006, 2600);
-insert into Cars (id, color, make, model, year, price) values (12, 'Green', 'Isuzu', 'FTR', 2005, 1700);
+insert into Cars (id, color, make, model, year, price) values (11, 'Orange', 'Mitsubishi', 'Galant', 2010, 2600);
+insert into Cars (id, color, make, model, year, price) values (12, 'Green', 'Isuzu', 'FTR', 2012, 1700);
 insert into Cars (id, color, make, model, year, price) values (13, 'Black', 'Chevrolet', 'Equinox', 2015, 22000);
-insert into Cars (id, color, make, model, year, price) values (14, 'Grey', 'Land Rover', 'Freelander', 2002, 6500);
-insert into Cars (id, color, make, model, year, price) values (15, 'White', 'Volkswagen', 'Bora', 2006, 8200);
+insert into Cars (id, color, make, model, year, price) values (14, 'Grey', 'Land Rover', 'Freelander', 2011, 6500);
+insert into Cars (id, color, make, model, year, price) values (15, 'White', 'Volkswagen', 'Bora', 2017, 8200);
 
 
 

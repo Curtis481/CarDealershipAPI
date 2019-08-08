@@ -1,6 +1,17 @@
 package com.credera.CarDealershipApplication.Service;
 
-import com.credera.CarDealershipApplication.Model.*;
+import com.credera.CarDealershipApplication.Car.Car;
+import com.credera.CarDealershipApplication.Car.ResponseCar;
+import com.credera.CarDealershipApplication.Car.ResponseCarCreationService;
+import com.credera.CarDealershipApplication.Customer.Customer;
+import com.credera.CarDealershipApplication.Customer.ResponseCustomer;
+import com.credera.CarDealershipApplication.Customer.ResponseCustomerCreationService;
+import com.credera.CarDealershipApplication.Employee.Employee;
+import com.credera.CarDealershipApplication.Employee.ResponseEmployee;
+import com.credera.CarDealershipApplication.Employee.ResponseEmployeeCreationService;
+import com.credera.CarDealershipApplication.Sale.ResponseSale;
+import com.credera.CarDealershipApplication.Sale.ResponseSaleCreationService;
+import com.credera.CarDealershipApplication.Sale.Sale;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
